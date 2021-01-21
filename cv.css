@@ -187,6 +187,11 @@ section > div{
     background-color: #4B8;
     border-radius: 5px;
 }
+.c80{
+    width: 80%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
 .comp2{
     display: flex;
     flex-flow: row wrap;
