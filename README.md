@@ -1,2 +1,2 @@
 # CV-num
-Mon CV A moi
+Mon CV
