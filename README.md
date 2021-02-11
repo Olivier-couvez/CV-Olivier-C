@@ -1,2 +1,2 @@
-# CV-num
+# CV-numerique
 Mon CV
