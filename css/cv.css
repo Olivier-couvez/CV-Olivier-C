@@ -5,9 +5,11 @@
     margin: 0px;
     text-align: justify;
     box-sizing: border-box;
+
 }
 body{
     background: #ededed;
+    background-image: url('../images/bureau.jpg');
 }
 p{
     font-size: 1em;
@@ -81,10 +83,10 @@ section > div{
     border-radius: 50%;
     margin-top: -90px;
 }
-.prez{
+.moi{
     border-bottom: 2px dashed #ccc;
 }
-.prez a{
+.moi a{
     display: block;
     text-align: center;
     padding: 10px;
@@ -188,6 +190,12 @@ section > div{
     background-color: #4B8;
     border-radius: 5px;
 }
+
+.c85{
+    width: 85%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
 .comp2{
     display: flex;
     flex-flow: row wrap;
@@ -228,10 +236,10 @@ section > div{
     header h1{
         width: 80%;
     }
-    .prez, .contact{
+    .moi, .contact{
         flex: 0 0 45%;
     }
-    .prez{
+    .moi{
         border-bottom: none;
         border-right: 2px solid #ccc;
         padding-right: 20px;
@@ -241,10 +249,10 @@ section > div{
         padding-left: 20px;
         margin-right: auto;
     }
-    .prez a{
+    .moi a{
         border: 2px solid transparent;
     }
-    .prez a:hover{
+    .moi a:hover{
         color: #f28835;
         background-color: #fff;
         border: 2px solid #f28835;
