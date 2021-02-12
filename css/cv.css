@@ -92,8 +92,9 @@ section > div{
     padding: 10px;
     margin: 10px auto 30px auto;
     color: #fff;
-    background-color: #EA0;
-    box-shadow: 0px 0px 10px #141ee2;
+    background-color: #961;
+    background: linear-gradient(#961, white);
+    box-shadow: 7px 7px 10px #141D0A;
     border-radius: 5px;
 }
 .contact-flex{
@@ -224,14 +225,14 @@ section > div{
     box-shadow: 0px 0px 15px #555;
 }
 
-/*VERSION BUREAU DU CV*/
+/*VERSION smartphone CV*/
 @media screen and (min-width: 980px){
     section{
         width: 80%;
         box-shadow: 0px 0px 10px #bbb;
     }
     a:hover{
-        color: #EA0;
+        color: #961;
     }
     header h1{
         width: 80%;
@@ -253,9 +254,11 @@ section > div{
         border: 2px solid transparent;
     }
     .moi a:hover{
-        color: #f28835;
-        background-color: #fff;
-        border: 2px solid #f28835;
+        /* color: #f28835;*/
+        color: #961;
+        background-color: #961;
+        background: linear-gradient(#861, white);
+        border: 2px solid #961;
         box-shadow: 0px 0px 20px #666;
     }
     .exp-logo{
